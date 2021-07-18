@@ -12,6 +12,7 @@ import MicIcon from '@material-ui/icons/Mic';
 import firebase from 'firebase'
 import Message from './Message';
 import getRecipientEmail from '../utils/getRecipientEmail'
+import TimeAgo from 'timeago-react'
 
 const ChatScreen = ({chat, messages}) => {
 
